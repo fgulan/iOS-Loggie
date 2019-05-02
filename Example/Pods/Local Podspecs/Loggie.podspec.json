@@ -15,14 +15,18 @@
     "tag": "2.0.1"
   },
   "social_media_url": "https://twitter.com/FilipBec",
-  "swift_versions": "4.2",
   "platforms": {
     "ios": "8.0"
   },
+  "swift_versions": "4.2",
   "source_files": "Loggie/Classes/**/*.{swift}",
+  "resource_bundles": {
+    "LoggieResources": [
+      "Loggie/Classes/**/*.{storyboard,xib}"
+    ]
+  },
   "resources": [
-    "Loggie/Classes/**/*.{storyboard}",
-    "Loggie/Classes/**/*.{xib}"
+    "Loggie/Classes/**/*.{xib,storyboard}"
   ],
   "frameworks": [
     "UIKit",

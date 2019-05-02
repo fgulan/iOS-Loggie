@@ -58,4 +58,3 @@ public class LoggieManager: NSObject {
         logs.append(log)
     }
 }
-
